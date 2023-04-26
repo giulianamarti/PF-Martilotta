@@ -18,6 +18,7 @@
 }
 
 body{
+    height: 100%;
     background-color: #f2ebe6;
 }
 
@@ -65,19 +66,7 @@ h3{
    
 }
 
-footer{
-    padding-top: 150px;
-}
 
-.info-footer{
-    list-style: none;
-    font-family: 'Poppins', sans-serif;
-}
-
-.logo-footer{
-    width: 20px;
-}
- 
 .vermas {
     text-align: center;
     text-decoration: none;
@@ -187,12 +176,37 @@ section p {
     margin: 10px;
   }
 
+  footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+  }
 
+  footer {
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    margin-top: 50px;
 
+}
+  .info-footer ul{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+.logo-footer{
+    width: 20px;
+}
  
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+}
 
-
-
+.redes-sociales img {
+    margin: 10px;
+}
 
 
 
