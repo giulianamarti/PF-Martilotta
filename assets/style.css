@@ -171,6 +171,12 @@ section p {
     width: 40px;
   }
 
+  .contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
   .contenedor-de-fotos {
     display: flex;
     flex-wrap: wrap;
@@ -180,3 +186,16 @@ section p {
   .contenedor-de-fotos img {
     margin: 10px;
   }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
