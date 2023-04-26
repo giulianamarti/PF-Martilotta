@@ -170,3 +170,13 @@ section p {
   div section img {
     width: 40px;
   }
+
+  .contenedor-de-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contenedor-de-fotos img {
+    margin: 10px;
+  }
