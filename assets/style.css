@@ -1,5 +1,3 @@
-
-
 @font-face {
     font-family: 'bloverly';
     src: url(../assets/fonts/bloverly.otf);
@@ -57,15 +55,6 @@ h2{
 h3{
     font-family: 'lemon-milk-bold';
 }
-
-
-.imagenes {
-    width: 270px;
-    height: 330px;
-    display: inline-block;
-   
-}
-
 
 .vermas {
     text-align: center;
@@ -144,8 +133,8 @@ section h3{
 section p {
     font-family: 'Poppins', sans-serif;
 }
-
-.contenedor-info {
+/* de modos de envio y pagos */
+.contenedor-info { 
     text-align: center;
   }
   
@@ -174,14 +163,37 @@ section p {
     justify-content: center;
   }
 
-  .contenedor-de-fotoproducto {
+  .contenedor-galeria {
     justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(3, 330px);
+    grid-template-columns: repeat(3, 270px);
+    row-gap: 10px;
+    column-gap: 10px;
   }
 
-  .contenedor-de-fotos img,
-  .contenedor-de-fotoproducto img {
-    margin: 10px;
+  .contenedor-galeria-inicio {
+    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(2, 330px);
+    grid-template-columns: repeat(3, 270px);
+    row-gap: 10px;
+    column-gap: 10px;
   }
+
+  .contenedor-destacados {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    column-gap: 10px;
+
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
 
   footer {
     display: flex;
