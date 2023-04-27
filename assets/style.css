@@ -172,7 +172,12 @@ section p {
     justify-content: center;
   }
 
-  .contenedor-de-fotos img {
+  .contenedor-de-fotoproducto {
+    justify-content: center;
+  }
+
+  .contenedor-de-fotos img,
+  .contenedor-de-fotoproducto img {
     margin: 10px;
   }
 
