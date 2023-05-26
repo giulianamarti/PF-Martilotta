@@ -31,7 +31,6 @@ header {
 header img {
     width: 230px;
     height: 100px;
-    display: inline-block;
 }
 
 nav a {
@@ -42,12 +41,6 @@ nav a {
     
 }
 
-
-/* nav {
-    display: inline-block;
-    text-align: center;
-
-} */
 
 /* centra el texto nav */
 .menu { 
@@ -207,18 +200,11 @@ section p {
   footer {
     display: flex;
     justify-content: space-between;
-    margin: 50px;
-  }
-
-  footer {
     background-color: whitesmoke;
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-bottom: 50px;
-    padding-right: 20px;
     margin-top: 50px;
-
-}
+    padding: 50px 50px 50px 50px  ;
+   
+  }
   .info-footer ul{
 
     list-style: none;
