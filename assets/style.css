@@ -18,12 +18,19 @@
 body{
     height: 100%;
     background-color: #f2ebe6;
+    
+
 }
 
-.logo{
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header img {
     width: 230px;
     height: 100px;
-    padding-top: 50px;
     display: inline-block;
 }
 
@@ -32,14 +39,15 @@ nav a {
     text-decoration: none;
     color: black;
     text-align: center;
+    
 }
 
 
-nav {
+/* nav {
     display: inline-block;
     text-align: center;
 
-}
+} */
 
 /* centra el texto nav */
 .menu { 
@@ -74,6 +82,7 @@ h3{
     padding: 20px;
     margin: 10px;
     padding-bottom: 100px;
+    
 }
 
 nav ul li {
@@ -211,6 +220,7 @@ section p {
 
 }
   .info-footer ul{
+
     list-style: none;
     font-family: 'Poppins', sans-serif;
 }
