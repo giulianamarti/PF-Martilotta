@@ -116,8 +116,7 @@ nav ul li {
 aside ul li {
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
-    padding-left: 50px;
-    
+    padding-left: 50px;  
     
 }
 
@@ -127,6 +126,9 @@ aside {
     margin: 10px;
   }
 
+.listadecategorias li {
+    margin-bottom: 10px; /* Agrega un margen inferior de 10px a cada elemento de la lista */
+}
 
 section h3{
     font-size: 20px;
