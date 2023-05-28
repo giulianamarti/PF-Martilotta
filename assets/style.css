@@ -13,6 +13,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -25,12 +26,19 @@ body{
 header {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  
 }
 
 header img {
     width: 230px;
     height: 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center ;
+  justify-content: space-between;
+  gap: 100px;
 }
 
 nav a {
@@ -293,6 +301,125 @@ form {
     transform: scale(1.1); 
 }
 
+.hamburguesa {
+  display: none;
+}
+
+.cabecera {
+  height: 15vh;
+}
+
+@media screen and (max-width:425px) {
+  
+  nav ul {
+      display: none;
+  }
+
+  .hamburguesa {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+
+  .contenedor-destacados {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    gap: 15px;
+  
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  section.destacados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor-galeria-inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    gap: 15px;
+  }
+  
+  .contenedor-galeria-inicio > div {
+    text-align: center;
+  }
+
+  .contenedor-galeria-inicio img:nth-child(n+4) {
+    display: none;
+  }
+
+  .contenedor-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .derecha h3 {
+    display: none;
+    font-size: 10px;
+  }
+
+  .izquierda h3 {
+    display: none;
+    font-size: 10px;
+  }
+
+  .izquierda p {
+    display: none;
+  }
+
+  .derecha p {
+    display: none;
+  }
+
+  .medio p {
+    display: none;
+  }
+
+  .medio h3 {
+    display: none;
+    font-size: 10px;
+  }
+  
+  section.derecha,
+  .izquierda, .medio {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    gap: 10px;
+  }
+  footer ul li {
+    font-size: 12px;
+  }
+
+  .logo-footer {
+    width: 20px;
+    height: 20px;
+  }
 
 
+}
 
